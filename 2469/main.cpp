@@ -1,5 +1,5 @@
 //Juan Manuel González Ascencio
-//Leetcode #2469 from https://leetcode.com/problems/convert-the-temperature/
+//Leetcode #2469 from   
 // comando para compilar: g++ main.cpp -o ./app
 
 #include <bits/stdc++.h>
