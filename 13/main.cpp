@@ -1,5 +1,6 @@
 //Juan Manuel González Ascencio
 //Leetcode #13 from https://leetcode.com/problems/roman-to-integer/
+// comando para compilar: g++ main.cpp -o ./app
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -17,6 +18,7 @@ public:
             case 'D': return 500; break;
             case 'M': return 1000; break;
         }
+        return -1;
     }
 
     int Roman2Int(string s){
@@ -48,7 +50,7 @@ public:
 
 int main(){
     Solution sol;
-    string s = "XXXIV";
+    string s = "MCMXCIV";
     cout << sol.Roman2Int(s) << endl;
     return 0;
 }
